@@ -4,6 +4,7 @@
 npx create-nx-workspace authentication-app (with nestjs)
 
 2) Backend setup
+
 i) Create auth-service (nestjs)
 
 nx g @nx/nest:application backend-auth-service  --directory apps/backend/auth-service
