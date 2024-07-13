@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@authentication-app/backend-common": [
+        "libs/backend/common/src/index.ts"
+      ],
+      "@authentication-app/frontend-ui-element": [
+        "libs/frontend/ui-element/src/index.ts"
+      ],
+      "@authentication-app/frontend-ui-element/server": [
+        "libs/frontend/ui-element/src/server.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
